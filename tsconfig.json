@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "declaration": true,
+        "declarationDir": "./dist/ts",
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "module": "esnext",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "skipLibCheck": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "target": "es5",
+        "jsx": "react",
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["es2017", "dom"],
+        "baseUrl": "./src",
+        "rootDir": "./src",
+        "outDir": "./dist/es2015"
+    },
+    "exclude": ["node_modules", "tmp"],
+    "include": ["**/*.ts", "**/*.tsx"]
+}
