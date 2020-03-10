@@ -27,5 +27,5 @@ export const WithThemes: FunctionComponent<WithThemesProps> = ({
         };
     }, [children]);
 
-    return <ThemeProvider theme={{}}>{children}</ThemeProvider>;
+    return <ThemeProvider theme={themeStore[theme] ?? {}}>{children}</ThemeProvider>;
 };
